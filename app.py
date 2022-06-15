@@ -12,7 +12,7 @@ PORT = 4100
 
 @app.route("/")
 def hello():
-    return "Git Gud!!"
+    return "Git Gud!"
 
 
 @app.route("/score", methods=["POST"])
